@@ -14,13 +14,13 @@
 # echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 # echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
 
-src-git packages https://github.com/coolsnowwolf/packages
-src-git luci https://github.com/coolsnowwolf/luci
-src-git routing https://github.com/coolsnowwolf/routing
-src-git telephony https://git.openwrt.org/feed/telephony.git
-src-git helloworld https://github.com/fw876/helloworld.git
-src-git oui https://github.com/zhaojh329/oui.git
-src-git video https://github.com/openwrt/video.git
-src-git targets https://github.com/openwrt/targets.git
-src-git oldpackages http://git.openwrt.org/packages.git
-src-link custom /usr/src/openwrt/custom-feed
+echo 'src-git packages https://github.com/coolsnowwolf/packages' >>feeds.conf.default
+echo 'src-git luci https://github.com/coolsnowwolf/luci' >>feeds.conf.default
+echo 'src-git routing https://github.com/coolsnowwolf/routing' >>feeds.conf.default
+echo 'src-git telephony https://git.openwrt.org/feed/telephony.git' >>feeds.conf.default
+echo 'src-git helloworld https://github.com/fw876/helloworld.git' >>feeds.conf.default
+echo 'src-git oui https://github.com/zhaojh329/oui.git' >>feeds.conf.default
+echo 'src-git video https://github.com/openwrt/video.git' >>feeds.conf.default
+echo 'src-git targets https://github.com/openwrt/targets.git' >>feeds.conf.default
+echo 'src-git oldpackages http://git.openwrt.org/packages.git' >>feeds.conf.default
+echo 'src-link custom /usr/src/openwrt/custom-feed' >>feeds.conf.default
